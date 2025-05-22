@@ -120,11 +120,11 @@ const Main = () => {
         className='w-[1024px] h-auto absolute top-0 left-1/2 -translate-x-1/2'
         src='https://techsev.github.io/weddevchallenge-s2e3/tofd-arcade.png'
       />
-      <div className='w-[640px] h-[480px] mt-[490px] relative z-10'>
+      <div className='max-w-[640px] w-full  mt-0 lg:mt-[490px] relative z-10'>
         <MediaController>
           <MuxVideo
             ref={videoRef}
-            className='w-[640px] h-[480px] rounded-lg overflow-hidden'
+            className='w-full max-w-[640px] aspect-[4/3] rounded-lg overflow-hidden'
             slot='media'
             playbackId='LIWGP8yTXPfGlWqnUMAJFCqxsPagJVC5tC6Bc18QCE4'
             preload='auto'
@@ -157,13 +157,13 @@ const Main = () => {
         )}
         <div
           id='subtitle-box'
-          className='text-white text-2xl relative z-10 bg-black rounded-lg p-2 min-h-[3em] outline-red'
+          className='text-white text-md xl:text-2xl relative z-10 bg-black rounded-lg p-2 min-h-[3em] outline-red'
         >
           {previousSubtitle}
         </div>
         <div
           id='subtitle-box-2'
-          className='text-white text-2xl relative z-10 bg-black rounded-lg p-2 mt-2'
+          className='text-white text-md xl:text-2xl relative z-10 bg-black rounded-lg p-2 mt-2'
         >
           <p className='mb-2 text-red-500'>
             Type the above subtitles in the input box below to continue playing
