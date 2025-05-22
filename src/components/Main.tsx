@@ -117,10 +117,10 @@ const Main = () => {
       {/* <h1 className='text-4xl font-bold mb-3'>Typing of the Mux</h1> */}
       {/* <mux-video playback-id="PLtkNjmv028bYRJr8BkDlGw7SHOGkCl4d" src="https://stream.mux.com/PLtkNjmv028bYRJr8BkDlGw7SHOGkCl4d.m3u8" slot="media" crossorigin="" tabindex="-1"></mux-video> */}
       <img
-        className='w-[1024px] h-auto absolute top-0 left-1/2 -translate-x-1/2'
+        className='max-w-[1024px] w-full h-auto absolute top-0 left-1/2 -translate-x-1/2'
         src='https://techsev.github.io/weddevchallenge-s2e3/tofd-arcade.png'
       />
-      <div className='max-w-[640px] w-full  mt-0 lg:mt-[490px] relative z-10'>
+      <div className='max-w-[640px] w-[63%]  mt-[45%] lg:mt-[490px] relative z-10 m-20'>
         <MediaController>
           <MuxVideo
             ref={videoRef}
