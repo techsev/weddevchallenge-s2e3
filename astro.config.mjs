@@ -8,7 +8,8 @@ import tailwindcss from '@tailwindcss/vite'
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: 'https://techsev.github.io/weddevchallenge-s2e3/',
+  site: 'https://techsev.github.io/',
+  base: '/weddevchallenge-s2e3/',
 
   vite: {
     plugins: [tailwindcss()]
