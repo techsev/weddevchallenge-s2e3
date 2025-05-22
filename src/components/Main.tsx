@@ -165,11 +165,12 @@ const Main = () => {
           id='subtitle-box-2'
           className='text-white text-md xl:text-2xl relative z-10 bg-black rounded-lg p-2 mt-2'
         >
-          <p className='mb-2 text-red-500'>
+          {/* <p className='mb-2 text-red-500'>
             Type the above subtitles in the input box below to continue playing
             the video
-          </p>
+          </p> */}
           <textarea
+            placeholder='Type The Subtitles Here To Continue Playing The Video'
             ref={typingAreaRef}
             className='w-full h-full border-2 border-white rounded-lg p-2 bg-gray-900'
             value={currentTyped}
