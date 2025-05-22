@@ -1,16 +1,20 @@
 ---
-
+import Main from '@/components/Main'
+import '../styles/global.css'
+import 'media-chrome'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Astro</title>
+    <script type='module' src='https://cdn.jsdelivr.net/npm/media-chrome@4/+esm'
+    ></script>
+  </head>
+  <body class='bg-black'>
+    <Main client:only='react' />
+  </body>
 </html>

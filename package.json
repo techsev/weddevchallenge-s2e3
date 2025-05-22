@@ -9,6 +9,25 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.8.0"
+    "@astrojs/react": "^4.3.0",
+    "@mux/mux-player-react": "^3.4.0",
+    "@mux/mux-video": "^0.25.2",
+    "@mux/mux-video-react": "^0.25.2",
+    "@tailwindcss/vite": "^4.1.7",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "astro": "^5.8.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "howler": "^2.2.4",
+    "lucide-react": "^0.511.0",
+    "media-chrome": "^4.10.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "tw-animate-css": "^1.3.0"
   }
 }
