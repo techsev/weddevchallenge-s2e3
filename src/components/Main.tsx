@@ -118,7 +118,7 @@ const Main = () => {
       {/* <mux-video playback-id="PLtkNjmv028bYRJr8BkDlGw7SHOGkCl4d" src="https://stream.mux.com/PLtkNjmv028bYRJr8BkDlGw7SHOGkCl4d.m3u8" slot="media" crossorigin="" tabindex="-1"></mux-video> */}
       <img
         className='w-[1024px] h-auto absolute top-0 left-1/2 -translate-x-1/2'
-        src='/tofd-arcade.png'
+        src='https://techsev.github.io/weddevchallenge-s2e3/tofd-arcade.png'
       />
       <div className='w-[640px] h-[480px] mt-[490px] relative z-10'>
         <MediaController>
